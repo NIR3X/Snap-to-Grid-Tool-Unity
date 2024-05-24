@@ -7,7 +7,7 @@ public class UnityEditorSnapToGrid : MonoBehaviour
     [SerializeField] bool xAxis = true, yAxis = true, zAxis = true;
     [SerializeField] Vector3 positioningStep = new Vector3(1f, 1f, 1f),
                              positioningOffset = new Vector3(0.5f, 0.5f, 0.5f),
-                             positionOffset = new Vector3(0f, 0f, 0f),
+                             positionOffset = new Vector3(0f, 0.5f, 0f),
                              scalingStep = new Vector3(1f, 1f, 1f);
 
     bool isPositioned = false;
